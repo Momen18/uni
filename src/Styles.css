@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #4caf50;
+}
+
+/* App Container */
+.app {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Inputs */
+input[type="text"] {
+  width: calc(100% - 20px);
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Error and Loading Messages */
+p {
+  font-size: 16px;
+}
+
+p[style*="color: red"] {
+  color: #e53935;
+}
+
+/* University List */
+.university-list {
+  margin-top: 20px;
+}
+
+.university-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.university-card:hover {
+  transform: scale(1.02);
+}
+
+.university-card h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #2e7d32;
+}
+
+.university-card p {
+  margin: 5px 0;
+}
+
+.university-card a {
+  display: inline-block;
+  margin-top: 5px;
+  text-decoration: none;
+  color: #1e88e5;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.university-card a:hover {
+  color: #1565c0;
+}
