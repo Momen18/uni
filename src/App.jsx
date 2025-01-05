@@ -21,7 +21,7 @@ const university = () => {
       const response = await fetch(
     `https://universities.hipolabs.com/search?country=${encodeURIComponent(country)}`;
 
-      );
+    };
       if (!response.ok) throw new Error("Failed to fetch data.");
       const data = await response.json();
       setUniversities(data);
